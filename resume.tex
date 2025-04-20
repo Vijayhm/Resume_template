@@ -1,0 +1,227 @@
+%----------------------------------------------------------------------------
+% Resume Template Vijay Manjunath
+%----------------------------------------------------------------------------
+\documentclass[letterpaper,11pt]{article}
+\usepackage{amsmath}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textbf{\small#3} & \textbf{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Vijay Manjunath} \\ \vspace{1pt}
+    \small  \raisebox{0.0\height}\faMapMarker\ Stony Brook, NY ~
+    \small \raisebox{-0.1\height}\faPhone\ 111-222-3333 ~ \href{email@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{email@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/vijay-manjunath/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin/vijay}}  ~
+    \href{http link to github}{\raisebox{-0.2\height}\faGithub\ \underline{github/vijay}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+
+ \resumeSubHeadingListStart
+	\resumeSubheading
+  	{State University of New York at Stony Brook}{August 2023 - May 2025}
+  	{Master's in Data Science}{Stony Brook, New York}
+   
+        {Courses: Data Structures and Algorithms, Database Management, Data Analysis, Advanced Statistics, Big Data}
+        \vspace{-5pt}
+  
+  	\resumeSubheading
+  	{Visvesvaraya Technological University}{June 2017 - July 2021}
+  	{Bachelor's in Electronics and Communication}{Bengaluru, India}
+         
+         {Courses: Microprocessors, Computer Communication Networks, Analog and Digital Electronics}
+ \resumeSubHeadingListEnd
+ \vspace{-15pt}
+
+
+%-----------Skills---------------
+\section{Skills}
+    %\resumeSubHeadingListStart
+\begin{itemize}[leftmargin=0.0 in, label={}]
+  \small{\item{
+        \textbf{Languages:} Python, C, C++, R, Shell; 
+        \textbf{Radio Technology:} RF analysis, Cellular Networks, WiFi, Bluetooth, GPS.\\
+        \textbf{Network Protocols:} IPv6/IPv4, TCP/IP, QoS, DNS, DHCP, BGP, routing, switching, HTTP.\\
+        \textbf{Softwares and Tech:}  MySQL, MongoDB, Elasticsearch, Docker, Kubernetes, CI/CD.\\
+        \textbf{Debug Tools:}  Wireshark, QCAT, QXDM, tcpdump, gdb, pdb.\\
+        \textbf{Development Tools:}  Linux, Unix, Visual Studio, AWS, Git, huggingface.\\
+   %      \textbf{libraries and frameworks:} Pandas, NumPy, Matplotlib, Scikit-learn, Tensorflow, Pytorch, PyQt.
+   }}
+ \end{itemize}
+\vspace{-15pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+
+    \resumeSubheading{CommScope Networks }{August 2021 - June 2023}{Wireless Research and Development Engineer}{Bengaluru, India}
+      \vspace{-5pt}
+        \resumeItemListStart
+
+             \resumeItem{Developed \textbf{LTE and 5G NR Layer 3} functionalities, which include Radio Resource control(RRC) and Non-Access Stratum(NAS), ensuring protocol compliance with 3GPP standards.}
+           
+
+        \resumeItemListEnd
+        \resumeSubheading{IUS Auto}{September 2024 - Present}{Application Development Intern}{New York, USA}
+            \vspace{-5pt}
+            \resumeItemListStart
+                  \resumeItem{Developed a full-fledged \textbf{Generative-AI powered patent drafting platform}, currently in pre-seed funding stage, serving global IP law firms and legal professionals.}
+                         
+            \resumeItemListEnd
+        
+           \resumeSubheading{VI Solutions}{March 2020 - October 2020}{Junior Data Analyst}{Bengaluru, India}
+          \vspace{-5pt}
+            \resumeItemListStart
+               \resumeItem {Development of an innovative proprietary tool, designed to revolutionize and streamline the initial stages of data processing, specifically focusing on automating the data cleaning process within Exploratory Data Analysis.}
+                
+                \resumeItem{Achieved 20\% increased performance and efficiency by significantly enhancing analysis accuracy and reliability. }
+            \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+       {\textbf{Wireless Robotic Hand Bot} {}}{} {}
+        \vspace{-12pt}
+         \resumeItemListStart     
+            \resumeItem{Developed a wireless robotic hand bot for real-time gesture control, optimizing communication latency using C programming, Arduino, and NRF24L01.}
+                    \resumeItemListEnd
+       \vspace{-15pt}  
+
+
+     \resumeProjectHeading
+        {\textbf{Natural Language SQL Chatbot Interface } $|$\href{git link}{\raisebox{-0.2\height}\  \underline{GitHub}} {}}{} {}
+       \vspace{-12pt}
+         \resumeItemListStart
+         \resumeItem{Built an \textbf{NLP-powered chatbot} that allows users to query SQLite databases using natural language, returning summarized responses and improving accessibility for non-technical users.}
+         \resumeItemListEnd
+% \vspace{-15pt}
+    
+
+
+       \resumeProjectHeading
+         {\textbf{Interactive Sudoku Solver} $|$\href{git link}{\  \underline{GitHub}} {}}{}
+         \vspace{-12pt}
+         \resumeItemListStart
+         \resumeItem{ Implemented a backtracking algorithm in Python to efficiently solve Sudoku puzzles, developed a user-friendly GUI using Tkinter, enhancing user experience. }
+         \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+\end{document}
