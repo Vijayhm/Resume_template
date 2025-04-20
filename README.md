@@ -22,3 +22,4 @@ This repository contains a customizable LaTeX-based resume template originally c
    ```bash
    git clone https://github.com/your-username/resume-template-latex.git
    cd resume-template-latex
+<img width="1000" alt="Screenshot 2025-04-20 at 6 06 10 PM" src="https://github.com/user-attachments/assets/c716cef6-371c-4d2b-86e2-abb0e702c8fd" />
